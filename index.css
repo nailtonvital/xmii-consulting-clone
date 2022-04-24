@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+:root{
+    --layout-color: rgb(28, 66, 100);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+
+}
+.main.{
+    padding-inline: 20%;
+}
+
+.navbar{
+    background-color: rgb(28, 66, 100);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10%;
+    align-items: center;
+    min-height: 80px;
+}
+
+.logo img{
+    width: 210px;
+    padding-left: 20px;
+}
+
+.links a{
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+.links a:hover{
+    cursor: pointer;
+}
+
+.left, .right{
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 150px;
+    align-items: center;
+}
+.blue{
+    background-color: rgb(28, 66, 100);
+    color: white;
+}
+
+.t{
+    height: 600px;
+}
+
+.right{
+    text-align: right;
+}
+
+
+h1.title{
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+p.subtile{
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.svg img{
+    width: 550px;
+}
+
+.rounded {
+    border-style: solid;
+    border-radius: 6px;
+}
+
+button.btn-1, button.btn-2{
+    margin-top: 20px;
+    padding: 10px;
+    padding-inline: 15px;
+    
+}
+
+button.btn-1{
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border-color: white;
+
+}
+
+button.btn-1:hover{
+    background-color: white;
+    color: var(--layout-color);
+}
+
+button.btn-2{
+    background-color: var(--layout-color);
+    color: white;
+    border-color: var(--layout-color);
+
+}
+
+button.btn-2:hover{
+    background-color: white;
+    color: rgb(28, 66, 100);
+    border-color: rgb(28, 66, 100);
+}
+
+
+.center{
+    margin-top: 20px;
+    padding-inline: 40px;
+    padding-top: 25px;    
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.center-2{
+    margin-top: 10px;
+    padding-inline: 200px;
+    padding-top: 25px;    
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.center h1, .center-2 h1{
+    margin-bottom: 20px;
+}
+
+.cards{
+    display: grid;
+    gap: 10px; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.cards-three{
+    display: grid;
+    gap: 20px; 
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-white, .card-blue{
+    max-height: 500px;
+    width: 250px;
+    padding-inline: 20px;
+    padding-bottom: 10px;
+}
+
+.card-white:hover, .card-blue:hover{
+    transform: scale(1.02);
+}
+
+.card-white{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.card-blue{
+    background-color: var(--layout-color);
+    color: white;
+    border-color: var(--layout-color);
+}
+.icon svg {
+    margin: 40px;
+}
+
+.card-title{
+    margin-top: 10px;
+}
+
+.card-subtitle{
+    margin-top: 5px;
+}
+
+.quote-area{
+    padding-inline: 50px;
+    margin-top: 50px;
+    display: flex;
+    color: black;
+    text-align: left;
+}
+
+.quote-text-area{
+    margin-left: 20px;
+}
+.name{
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+
+.linkedin{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.sub-name{
+    margin-bottom: 15px;
+}
+
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-inline: 20%;
+    text-align: left;
+}
+
+footer img{
+    width: 220px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social{
+    margin-right: 10PX;
+}
+.email{
+    margin-left: 25px;
+}
+
+#contact{
+    margin-bottom: 20px;
+}
+
+.copy{
+    font-weight: 100;
+    font-size: 0.7rem;
+}
